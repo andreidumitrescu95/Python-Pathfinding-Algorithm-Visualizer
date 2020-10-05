@@ -25,3 +25,5 @@ Both the A* and Best First Search heuristic are based on the Manhattan distance 
 ## The Application 
 
 The application allows the user to place start, end and obstacle nodes on a grid. After placing the aforementioned nodes the user is able to select a pathfinding algorithm of his choice and start the visualization process. Once the algorithm is done, the application will display the time elapsed since the start of the algorithm and the total nodes visited in order to find the goal node. The user can now either reset the grid in order to test out another algorithm or exit completely out of the application.
+
+![](application.png)
