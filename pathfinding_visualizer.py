@@ -22,7 +22,6 @@ pygame.init()
 def main(win, width):
 	
 	grid = make_grid(ROWS, width)
-	#DISPLAYSURF = pygame.display.set_mode((1920, 1080), pygame.FULLSCREEN)
 	all_fonts = pygame.font.get_fonts()
 
 	start = None
