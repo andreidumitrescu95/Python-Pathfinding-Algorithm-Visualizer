@@ -8,7 +8,7 @@ The project is implemented in Python using Pygame. We create a grid, we draw it 
 
 ## Algorithms
 
-**A* Search** - the best pathfinding algorithm as it always finds the shortest path and does it much faster than Dijkstra by using a heuristic function that aproximates the distance between the currently probed node and the end node.
+**A-star Search** - the best pathfinding algorithm as it always finds the shortest path and does it much faster than Dijkstra by using a heuristic function that aproximates the distance between the currently probed node and the end node.
 
 **Best First Search** - also uses a heuristic function to determine the approximate distance between nodes, but does not guarantee neither the shortest path, nor finding the actual end node.
 
