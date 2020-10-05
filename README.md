@@ -2,11 +2,11 @@
 
 I built this application for two main reasons: to get much more accomodated with python and to 
 
-## The project
+## The Project
 
 The project is implemented in Python using Pygame. We create a grid, we draw it to the screen and depending on the algorithm the user will be able to visualize several pathfinding algorithms in action and analyze the results (time elapsed, nodes visited, time and space complexity).
 
-## Algorithms
+## The Algorithms
 
 **A*** **Search** - the best pathfinding algorithm as it always finds the shortest path and does it much faster than Dijkstra by using a heuristic function that aproximates the distance between the currently probed node and the end node.
 
@@ -20,6 +20,8 @@ The project is implemented in Python using Pygame. We create a grid, we draw it 
 
 **Dijkstra's Algorithm** - the founding father of search algorithms, that guarantees the shortest path, albeit it being relatively slower than A*.
 
-## The application 
+Both the A* and Best First Search heuristic are based on the Manhattan distance between two points.
+
+## The Application 
 
 The application allows the user to place start, end and obstacle nodes on a grid. After placing the aforementioned nodes the user is able to select a pathfinding algorithm of his choice and start the visualization process. Once the algorithm is done, the application will display the time elapsed since the start of the algorithm and the total nodes visited in order to find the goal node. The user can now either reset the grid in order to test out another algorithm or exit completely out of the application.
