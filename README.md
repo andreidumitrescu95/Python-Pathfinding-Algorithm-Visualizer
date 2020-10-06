@@ -1,14 +1,14 @@
 # Python Pathfinding Algorithm Visualizer
 
-I built this application in order to get much more accomodated with Python and Pygame and to have a much better understanding of the nature of various pathfinding algorithms through visualization.
+I built this application in order to get much more accommodated with Python and Pygame and to have a much better understanding of the nature of various pathfinding algorithms through visualization.
 
 ## The Project
 
-The project is implemented in Python using Pygame. We create a grid, we draw it to the screen and depending on the algorithm the user will be able to visualize several pathfinding algorithms in action and analyze the results (time elapsed, nodes visited, time and space complexity).
+The project is implemented in Python using Pygame. The program creates a grid, draws it to the screen and depending on the chosen algorithm the user will be able to visualize it in action and analyze the results (time elapsed, nodes visited, time and space complexity).
 
 ## The Algorithms
 
-**A*** **Search** - the best pathfinding algorithm as it always finds the shortest path and does it much faster than Dijkstra by using a heuristic function that aproximates the distance between the currently probed node and the end node.
+**A*** **Search** - the best pathfinding algorithm as it always finds the shortest path and does it much faster than Dijkstra by using a heuristic function that approximates the distance between the currently probed node and the end node.
 
 **Best First Search** - also uses a heuristic function to determine the approximate distance between nodes, but does not guarantee neither the shortest path, nor finding the actual end node.
 
