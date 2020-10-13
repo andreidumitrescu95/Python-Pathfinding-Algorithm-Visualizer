@@ -27,3 +27,8 @@ Both the A* and Best First Search heuristic are based on the Manhattan distance 
 The application allows the user to place start, end and obstacle nodes on a grid. After placing the aforementioned nodes the user is able to select a pathfinding algorithm of his choice and start the visualization process. Once the algorithm is done, the application will display the time elapsed since the start of the algorithm and the total nodes visited in order to find the goal node. The user can now either reset the grid in order to test out another algorithm or exit completely out of the application.
 
 ![](https://github.com/andreidumitrescu95/Python-Pathfinding-Algorithm-Visualizer/blob/master/application.gif)
+
+## WIP features and functionalities
+
+At the current stage all proposed pathfinding algorithms have been implemented and the flow of the application is complete enough so that a user may be able to visualize all algorithms and reset the grid easily.
+Further adjustments can be made in the optimization department. I am considering switching form lists and arrays to numpy arrays which should make the app run a bit faster, seein as numpy data structures are linear and they take less time to swap and compare values.
