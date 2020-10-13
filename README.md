@@ -31,4 +31,4 @@ The application allows the user to place start, end and obstacle nodes on a grid
 ## WIP features and functionalities
 
 At the current stage all proposed pathfinding algorithms have been implemented and the flow of the application is complete enough so that a user may be able to visualize all algorithms and reset the grid easily.
-Further adjustments can be made in the optimization department. I am considering switching form lists and arrays to numpy arrays which should make the app run a bit faster, seein as numpy data structures are linear and they take less time to swap and compare values.
+Further adjustments can be made in the optimization department. I am considering switching from lists and arrays to numpy arrays which should make the app run a bit faster, seeing as numpy data structures are linear and they take less time to swap and compare values.
